@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: hyper;
-    src: url(/StuffFürDrauf/AtkinsonHyperlegible-Regular.ttf);
+    src: url(StuffFürDrauf/AtkinsonHyperlegible-Regular.ttf);
 }
 
 h2{
@@ -98,7 +98,7 @@ background: linear-gradient(180deg,rgba(255, 255, 255, 1) 69%, rgba(255, 255, 25
 
 footer{
 width: 100%;
-    background-image: url(/StuffFürDrauf/ui/reverse.png);
+    background-image: url(StuffFürDrauf/ui/reverse.png);
     background-size: cover;
 text-align: right;
 padding-top: 70px;
