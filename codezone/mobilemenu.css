@@ -1,0 +1,123 @@
+#menu2{
+    display: none;
+}
+
+#name{
+    float: left;
+    width: 50%; 
+    margin-left: 0px;
+    position: absolute;
+}
+
+
+nav{
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.menu{
+    display:none;
+}
+
+
+@font-face {
+    font-family: hyper;
+    src: url(../drauf/AtkinsonHyperlegible-Regular.ttf);
+}
+
+h2{
+    transform-origin: 0;
+    font-family: hyper;
+   font-size: clamp(1.5rem, 4vw, 3rem);
+    margin: 0;
+
+}
+
+.clickable:hover{
+    
+    scale: 1.1;
+}
+
+h3{
+    transform-origin: 0;
+    font-family: hyper;
+   font-size: x-larger;
+   margin: 1 rem;
+}
+
+h3:hover{
+    
+    scale: 1.1;
+}
+
+
+h1{
+    font-family: hyper;
+    font-size: clamp(1.75rem, 6vw, 4.5rem);
+} 
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+@media (orientation: portrait) {
+
+
+.menu{
+   
+    margin-top: 10%;
+    display: block;
+    position: absolute;
+    z-index: 99;
+    background-color: white;
+    padding: 5%;
+}
+
+.menu:hover {
+    height: 100%;
+     width: 100%;
+}
+.menu:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content{
+    display: none;
+}
+
+nav{
+    display: none;
+}
+
+ #name{
+        margin-top: 0%;
+        width: 95%;
+    }
+
+
+
+
+
+#menu2{
+    position: fixed;
+    display:block;
+    bottom: 0;
+    text-align: right;
+    right: 5%;
+    z-index: 999;
+    
+}
+h3:hover{
+    
+    scale: 1;
+}
+.clickable:hover{
+    
+    scale: 1;
+}
+
+}
+
