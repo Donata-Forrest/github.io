@@ -85,6 +85,11 @@ font-size: x-large;
 margin: 1rem;
 }
 
+
+#engl2{
+    display: none;
+}
+
 @media (orientation: portrait) {
 
 main{
